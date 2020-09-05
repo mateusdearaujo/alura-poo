@@ -14,7 +14,7 @@ $umFuncionario->calculaBonificacao();
 
 $nome = "Camila Silva";
 $cpf = new Cpf('123.123.123-12');
-$cargo = "Desenvolvedora Node";
+$cargo = "Gerente";
 $salario = 9000;
 $umaFuncionaria = new Funcionario($nome, $cpf, $cargo, $salario);
 $umaFuncionaria->calculaBonificacao();
